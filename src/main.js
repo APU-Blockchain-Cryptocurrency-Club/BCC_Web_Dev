@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import Header from './components/navbar.vue'
+import Footer from './components/footer.vue'
 
 import './assets/main.css'
 
-createApp(App).mount('#app')
+createApp(Header).mount('#header')
+createApp(Footer).mount('#footer')
