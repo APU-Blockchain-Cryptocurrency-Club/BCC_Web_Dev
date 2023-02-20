@@ -4,7 +4,7 @@
 
 
 <template>
-  <body class="bg-[#F2F5FA]">
+  <body>
     <div>
       <Navbar />
     </div>

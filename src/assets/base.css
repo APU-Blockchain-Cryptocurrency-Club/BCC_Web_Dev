@@ -72,3 +72,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#content{
+  height: 100%;
+}
