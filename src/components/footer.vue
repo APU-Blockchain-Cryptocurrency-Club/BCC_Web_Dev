@@ -4,34 +4,34 @@
             <div class="grid">
                 <div>
                     <a  href="/">
-                        <img src="https://drive.google.com/uc?export=view&id=1Wtst_gohgmtLXtDp4WHhs_Xvm_Upssnn" alt="APU BCC Logo" width="200">
+                        <img src="src\assets\APUBCC Logo.png" alt="APU BCC Logo" width="200">
                     </a>
                 </div>
 
                 <div class="flex m-2">
 
                     <a href="https://www.facebook.com/apubcc/" target="_blank">
-                        <img src="https://drive.google.com/uc?export=view&id=1iR4ml7mvH9MWa-q3X9_egSb69LZKOaw_" alt="APUBCC Facebook" width="35" class="m-1">
+                        <img src="src\assets\white fb.png" alt="APUBCC Facebook" width="35" class="m-1">
                     </a>
 
                     <a href="https://twitter.com/apubcc" target="_blank">
-                        <img src="https://drive.google.com/uc?export=view&id=1w1lPzOrUEv-YkHLZxW_n1WLgl_fRfs8-" alt="APUBCC Twitter" width="35" class="m-1">
+                        <img src="src\assets\white twitter.png" alt="APUBCC Twitter" width="35" class="m-1">
                     </a>
 
                     <a href="https://my.linkedin.com/company/apu-blockchain-crypto-club-apu-bcc?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
-                        <img src="https://drive.google.com/uc?export=view&id=16-yhvWAMTEWLmMv79geAhB56nTJa_GoE" alt="APUBCC LinkedIn" width="35" class="m-1">
+                        <img src="src\assets\white linked.png" alt="APUBCC LinkedIn" width="35" class="m-1">
                     </a>
 
                     <a href="https://www.instagram.com/apubcc/?hl=en" target="_blank">
-                        <img src="https://drive.google.com/uc?export=view&id=1heGiB2hm-ZPN_DdtlB8NJK99CaAoUpwO" alt="APUBCC Instagram" width="35" class="m-1">
+                        <img src="src\assets\white ig.png" alt="APUBCC Instagram" width="35" class="m-1">
                     </a>
 
                     <a href="https://www.youtube.com/channel/UC0WUwwcvh_A7to7YwoK-mrw" target="_blank">
-                        <img src="https://drive.google.com/uc?export=view&id=1o5hsP_db4I2iIwy0PJN8b_Gj66deupai" alt="APUBCC Youtube" width="35" class="m-1">
+                        <img src="src\assets\white you.png" alt="APUBCC Youtube" width="35" class="m-1">
                     </a>
 
                     <a href="https://github.com/APU-Blockchain-Cryptocurrency-Club" target="_blank">
-                        <img src="https://drive.google.com/uc?export=view&id=10k7jAADyKODCWhuNv25S3d9bPj-wwWSX" alt="APUBCC GitHub" width="35" class="m-1">
+                        <img src="src\assets\white gh.png" alt="APUBCC GitHub" width="35" class="m-1">
                     </a>
 
                 </div>

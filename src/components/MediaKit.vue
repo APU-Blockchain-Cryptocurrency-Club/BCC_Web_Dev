@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: "FAQ",
+  name: "MediaKit",
 }
 </script>

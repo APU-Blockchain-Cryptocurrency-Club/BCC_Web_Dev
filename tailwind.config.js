@@ -5,6 +5,7 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
       fontFamily: {
 
@@ -12,6 +13,10 @@ module.exports = {
         'Inter': ['"Inter"', 'sans-serif'],
         'Segoe': ['"Segoe UI"', 'sans-serif'],
 
+      },
+      
+      backgroundImage: {
+        'test':"url('/src/assets/bg.png')"
       }
 
 
