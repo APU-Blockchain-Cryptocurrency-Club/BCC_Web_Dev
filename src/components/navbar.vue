@@ -64,7 +64,7 @@
 
         <li class="px-5">
           <router-link to="/faq">
-            <a href="" class="font-extrabold">FAQ</a>
+            <a href="FAQ" class="font-extrabold">FAQ</a>
           </router-link>
         </li>
         <button class="px-5 ml-5 rounded-full text-sm font-bold bg-orange-400 ">JAIL NOW</button>

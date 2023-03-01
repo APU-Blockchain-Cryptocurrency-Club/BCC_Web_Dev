@@ -1,6 +1,6 @@
 <template>
   <body style="background-image: url('/src/assets/bg.png');">
-    <div >
+    <div>
       <h1 class="p-10 text-3xl text-orange-400"><b>Past Event</b></h1>
       <div class="relative max-w-screen-xl m-auto">
         <div class="container left">

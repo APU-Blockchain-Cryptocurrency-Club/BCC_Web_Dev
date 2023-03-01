@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./App.vue",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     
@@ -21,6 +22,8 @@ module.exports = {
 
 
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
   }
 }
