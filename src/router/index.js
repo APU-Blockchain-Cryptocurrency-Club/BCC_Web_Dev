@@ -4,8 +4,9 @@ import AboutUs from '../components/AboutUs.vue'
 import BUAC from '../components/BuyUsACoffee.vue'
 import CA from '../components/CryptoAddresses.vue'
 import FAQ from '../components/FAQ.vue'
-import MediaKit from '../components/Mediakit.vue'
+import MediaKit from '../components/MediaKit.vue'
 import Upcoming from '../components/Upcoming.vue'
+import Home from '../components/Home.vue'
 
 const routes = [
     {
@@ -39,7 +40,7 @@ const routes = [
     },{
         path:'/',
         name:'Home',
-        component: Timeline
+        component: Home
     }
 ]
 

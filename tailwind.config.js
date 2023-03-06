@@ -13,10 +13,6 @@ module.exports = {
         'Inter': ['"Inter"', 'sans-serif'],
         'Segoe': ['"Segoe UI"', 'sans-serif'],
 
-      },
-      
-      backgroundImage: {
-        'test':"url('/src/assets/bg.png')"
       }
 
 
