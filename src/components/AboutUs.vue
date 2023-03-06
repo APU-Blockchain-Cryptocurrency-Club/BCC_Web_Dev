@@ -1,6 +1,8 @@
 <template>
   <body>
-    <div></div>
+    <div>
+
+    </div>
   </body>
 </template>
 
