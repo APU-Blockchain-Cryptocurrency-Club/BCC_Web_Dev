@@ -5,10 +5,8 @@ import Footer from './components/footer.vue'
 
 <template>
     <Navbar/>
-    <body style="background-image: url('/src/assets/bg.png'); " class="relative h-full">
-        <div class="pt-16">
+    <body style="background-image: url('/src/assets/bg.png'); " class="min-h-screen bg-cover bg-center">
             <router-view/>
-        </div>
     </body>
     <Footer />
 </template>
