@@ -84,7 +84,7 @@
         </span>
       </button>
       <div>
-        <ul v-if="isInfoDropdown3" data-te-dropdown-ref class="">  
+        <ul v-if="isInfoDropdown3" data-te-dropdown-ref class="">
           <li>
             <a data-te-dropdown-item-ref>
               <div class="block py-2 px-5 ml-3 mt-3 text-lg font-extrabold dark:bg-gray-700/40 w-[70rem] rounded-full">
@@ -114,7 +114,7 @@
               <div class="block py-2 px-5 ml-3 mt-3 text-lg font-extrabold dark:bg-gray-700/40 w-[70rem] rounded-full">
                 APU BCC was established in 2020 by...
               </div>
-            </a>  
+            </a>
           </li>
         </ul>
       </div>
@@ -124,8 +124,6 @@
 </template>
 
 <script>
-
-var clicked = false;
 
 export default {
   name: "FAQ",
@@ -139,16 +137,54 @@ export default {
   },
   methods: {
     toggleInfoDropDown(span) {
-      var whichToggle = "isInfoDropdown" + span;
-      if (clicked == false) {
-          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 12h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg>'
-          clicked = true;
+      if (span == 1) {
+
+        //Setting plus and minus symbol
+        if (this.isInfoDropdown1 == false) {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 12h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
         }
         else {
-          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg>'
-          clicked = false;
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
         }
-        span == 1 ? this.isInfoDropdown1 = !this.isInfoDropdown1  : span == 2 ? this.isInfoDropdown2 = !this.isInfoDropdown2 : span == 3 ? this.isInfoDropdown3 = !this.isInfoDropdown3 : this.isInfoDropdown4 = !this.isInfoDropdown4;
+        this.isInfoDropdown1 = !this.isInfoDropdown1;
+      }
+      else if (span == 2) {
+
+        //Setting plus and minus symbol
+        if (this.isInfoDropdown2 == false) {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 12h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
+        }
+        else {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
+        }
+        this.isInfoDropdown2 = !this.isInfoDropdown2;
+      }
+      else if (span == 3) {
+
+        //Setting plus and minus symbol
+        if (this.isInfoDropdown3 == false) {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 12h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
+        }
+        else {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
+        }
+        this.isInfoDropdown3 = !this.isInfoDropdown3;
+      }
+      else if (span == 4) {
+
+        //Setting plus and minus symbol
+        if (this.isInfoDropdown4 == false) {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 12h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
+        }
+        else {
+          document.getElementById('span' + span).innerHTML = '<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-line join="round"></path></svg>'
+        }
+        this.isInfoDropdown4 = !this.isInfoDropdown4;
+      }
+      else{
+      window.alert("ERROR");
+      }
+      
     },
   }
 }
